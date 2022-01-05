@@ -1,0 +1,32 @@
+.todos-control {
+  width: 30rem;
+  max-width: 80%;
+  text-align: center;
+  border: 2px solid #5101d1;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+}
+
+.default-btn {
+  background: none;
+  font: inherit;
+  border: 1px solid #5101d1;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: #5101d1;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.default-btn:hover {
+  background: #5101d1;
+  color: #fff;
+}
+
+.todos-control p {
+  color: #262626;
+  margin-bottom: 15px;
+  font-size: 1.4em;
+}

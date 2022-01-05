@@ -1,0 +1,8 @@
+{
+	"env": {
+			"MONGO_USER": "habip",
+			"MONGO_PASSWORD": "gupPDQkqvOcPbg3W",
+			"MONGO_DB": "todo-app",
+			"JWT_KEY": "somesupersecretkey"
+	}
+}

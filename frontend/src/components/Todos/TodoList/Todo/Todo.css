@@ -1,0 +1,30 @@
+.todos__list-item {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid #5101d1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-style: double;
+}
+
+.action-icons {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-icons button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
